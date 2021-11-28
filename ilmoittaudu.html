@@ -11,53 +11,50 @@
 </head>
 
 <body>
-    <nav>
-        <div class="container">
+    <div class="container">
+        <nav>
             <div class="row">
                 <div class="col-md-4">
                     <h3>Mäyräojan ratsastuskoulu</h3>
                 </div>
                 <div class="col-md-8">
-
+                    <br>
                     <a href="https://huvila.github.io/moksu">Etusivu</a> &#124;
                     <a href="https://huvila.github.io/moksu/tallista.html">Tallista</a> &#124;
                     <a href="https://huvila.github.io/moksu/hevoset.html">Hevoset</a> &#124;
                     <a href="https://huvila.github.io/moksu/ilmoittaudu.html">Ilmoittaudu</a>
                 </div>
             </div>
-
-
-    </nav>
+        </nav>
+    </div>
     <br>
 
-    <main>
-        <div class="container">
+    <div class="container">
+        <main>
             <div class="row">
                 <div class="col-md-8">
                     <fieldset>
                         <legend>
                             <h4>Täytä lomake ilmoittautuaksesi tunneille!</h4>
                         </legend><br>
-
                         <form action="https://www.w3schools.com/action_page.php">
                             Nimi <br> <input type="text" name="nimi" required> <br>
                             Puhelinnumero <br> <input type="text" name="puhnro" required> <br>
                             Email <br> <input type="text" name="email" required><br><br>
                             Valitse taso jolla koet olevasi <br>
-                                <input type="radio" id="aloittelija" name="kokemus" value="Aloittelija">
-                                <label for="aloittelija">Aloittelija</label><br>
-                                <input type="radio" id="Hec" name="kokemus" value="HeC">
-                                <label for="HeC">Helppo C</label><br>
-                                <input type="radio" id="HeB" name="kokemus" value="HeB">
-                                <label for="HeB">Helppo B</label> <br>
-                                <input type="radio" id="HeA" name="kokemus" value="HeA">
-                                <label for="HeA">Helppo A </label><br><br>
-                              </form>
+                            <input type="radio" id="aloittelija" name="kokemus" value="Aloittelija">
+                            <label for="aloittelija">Aloittelija</label><br>
+                            <input type="radio" id="HeC" name="kokemus" value="HeC">
+                            <label for="HeC">Helppo C</label> <br>
+                            <input type="radio" id="HeB" name="kokemus" value="HeB">
+                            <label for="HeB">Helppo B</label> <br>
+                            <input type="radio" id="HeA" name="kokemus" value="HeA">
+                            <label for="HeA">Helppo A </label><br><br>
 
 
                             Valitse tunnin tyyppi
                             <br>
-                            <select id="juomat" name="juomat" size="1" required>
+                            <select id="tunnit" name="tunnit" size="1">
                                 <option value="yleis">Yleistunti</option>
                                 <option value="koulu">Koulutunti</option>
                                 <option value="este">Estetunti</option>
@@ -70,16 +67,15 @@
                     </fieldset>
                 </div>
 
-                <div class="col-md-4">
-                    <img class="img-fluid" src="sakkeboi.JPG" alt="Sakke" height="470">
-
-
-                </div>
-
-    </main>
+            <div class="col-md-4">
+                <img class="img-fluid" src="sakkeboi.JPG" alt="Sakke" height="470">
+            </div>
+            </div>
+        </main>
+        </div>
     <br>
-    <footer>
-        <div class="container">
+    <div class="container">
+        <footer>
             <div class="row">
                 <div class="col-md-12">
                     <p><b>Yhteystiedot</b><br>
@@ -88,7 +84,9 @@
                         mayraojan@gmail.com <br>
                     </p>
                 </div>
-    </footer>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
