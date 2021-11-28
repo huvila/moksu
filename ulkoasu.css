@@ -21,8 +21,7 @@ a:link {
   }
 
   a:visited {
-   
-    text-decoration: none;
+   text-decoration: none;
   }
 
 
@@ -37,5 +36,12 @@ footer{
     background-color: white;
     text-align: center;
    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+
+    }
 }
 
